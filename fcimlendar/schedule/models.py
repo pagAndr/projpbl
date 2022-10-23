@@ -9,7 +9,6 @@ class Pair(models.Model):
     group = models.CharField(max_length=100)
     odd_week = models.BooleanField(default=True)
 
-"""
 class Week(models.Model):
     pair_nr = models.IntegerField()
     day1 = Pair
@@ -19,4 +18,3 @@ class Week(models.Model):
     day5 = Pair
     day6 = Pair
     day7 = Pair
-"""
