@@ -7,8 +7,12 @@ class PairSerializer(serializers.ModelSerializer):
         model = models.Pair
         fields = '__all__'
 
+
+"""
 class WeekSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.Week
         fields = '__all__'
+
+"""
  

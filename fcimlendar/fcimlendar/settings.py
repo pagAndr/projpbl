@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'schedule.apps.ScheduleConfig',
     'administration.apps.AdministrationConfig',
     'rest_framework',
+    'timetable.apps.TimetableConfig',
 ]
 
 MIDDLEWARE = [
